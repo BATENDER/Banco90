@@ -1,0 +1,71 @@
+:root {
+    --preto: #302727;
+    --branco: whitesmoke;
+    --vermelho: #ba2d2d;
+    --laranja-escuro: #f2511b;
+    --laranja: #f2861b;
+    --laranja-trans: #f2871b75;
+    --amarelo: #c7c730;
+}
+
+header, footer {
+    background-color: var(--vermelho);
+}
+
+nav div a {
+    color: var(--branco) !important;
+}
+
+nav div button {
+    border-color: var(--branco) !important;
+    color: var(--branco) !important;
+}
+
+nav div button:hover {
+    background-color: var(--branco) !important;
+    color: var(--preto) !important;
+}
+
+#image {
+    height: 35rem;
+    background-image: url(../images/banner.jpg);
+    background-position: center 0;
+    background-size: cover;
+}
+
+.w-40 {
+    width: 43%;
+}
+
+#botao a {
+    border: 2px solid var(--laranja) !important;
+    background-color: var(--preto) !important;
+    color: var(--branco);
+}
+
+#cartaoUm, #cartaoDois, #cartaoTres {
+    background-position: center;
+    background-size: cover;
+}
+
+#cartaoUm {
+    background-image: url(../images/cartaoUm.jpg);
+}
+
+#cartaoDois {
+    background-image: url(../images/cartaoDois.jpg);
+}
+
+#cartaoTres {
+    background-image: url(../images/cartaoTres.jpg);
+}
+
+table .cor {
+    background-color: var(--vermelho) !important;
+    color: var(--branco) !important;
+    border: none !important;
+}
+
+table td {
+    border: 1px solid var(--preto) !important;
+}
