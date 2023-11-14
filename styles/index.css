@@ -28,9 +28,6 @@ nav div button:hover {
 
 #image {
     height: 35rem;
-    background-image: url(../images/banner.jpg);
-    background-position: center 0;
-    background-size: cover;
 }
 
 .w-40 {
@@ -68,4 +65,26 @@ table .cor {
 
 table td {
     border: 1px solid var(--preto) !important;
+}
+
+#imgServices {
+    background-image: url(../images/bannerBeneficios.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    #image div {
+        width: auto !important;
+    }
+
+    #image h5 {
+        font-size: 16pt !important;
+    }
+    #image p {
+        font-size: 12pt !important;
+    }
+    #idForm {
+        width: 100% !important;
+    }
 }
